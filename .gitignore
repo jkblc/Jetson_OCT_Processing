@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.raw
+*.tif
+*.tiff
+oct_output/
