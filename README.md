@@ -78,7 +78,7 @@ Add `cupy-cuda12x` (or the package for your CUDA) to use an NVIDIA GPU.
 | `dispersion_tuning.py` | the auto-tune search |
 | `Lin_loc.mat` | wavelength calibration |
 | `test_recon.py` | checks on synthetic data: `python test_recon.py` |
-| `jetson/` | `install.sh` and the launcher it installs |
+| `jetson/` | `jetson/install.sh` and the launcher it installs |
 
 The acquisition format is fixed in `recon.py`: 2048 spectral samples × 2048
 A-lines per frame, `uint16`, frames one after another. The frame count comes
